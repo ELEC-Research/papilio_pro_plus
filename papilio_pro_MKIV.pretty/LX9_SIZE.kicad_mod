@@ -1,0 +1,37 @@
+(footprint "LX9_SIZE" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp dd08ce89-66d9-448f-a663-84cab4572f0a)
+  )
+  (fp_text value "" (at 0 0) (layer "F.Fab")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 3e383fbe-1aa3-4c27-80ee-a5a20b10b62a)
+  )
+  (fp_text user "LX4" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 0.8636 0.8636) (thickness 0.1524)) (justify left bottom))
+    (tstamp b59efbfb-453d-46ac-ade1-a9d6ba1d5674)
+  )
+  (fp_text user "LX9" (at 5.08 0) (layer "F.SilkS")
+      (effects (font (size 0.8636 0.8636) (thickness 0.1524)) (justify left bottom))
+    (tstamp e8c16322-6d16-46d3-9721-14390decbfcc)
+  )
+  (fp_poly
+    (pts
+      (xy 3.048 0.254)
+      (xy 4.318 0.254)
+      (xy 4.318 -1.016)
+      (xy 3.048 -1.016)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp a377cf1f-144a-486f-87ec-2fd6608f74e5))
+  (fp_poly
+    (pts
+      (xy 8.128 0.254)
+      (xy 9.398 0.254)
+      (xy 9.398 -1.016)
+      (xy 8.128 -1.016)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS") (tstamp 87399d3d-c988-4508-aca6-a9dc68f9a207))
+)
